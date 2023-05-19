@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vh & Vw Units</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background: #333 url('https://source.unsplash.com/daily') no-repeat center center/cover;
+            color: #fff;
+            /* Take up exactly 55 of 100 slices of the vertical viewing page*/
+            /* height: 55vh; */
+            height: 100vh;
+             /* Take up exactly 45 of 100 slices of the horizontal viewing page*/
+            width: 45vw;
+            text-align: center;
+            padding: 2rem;
+            padding-top: 15rem;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin: 1rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #f4f4f4;
+            color: #333;
+            padding: 0.3rem 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Adipisci nostrum harum minus ipsam facilis ipsum.
+        </p>
+        <a href="#" class="btn">Find out more</a>
+    </header>
+    <section>
+        <h1>About our company</h1>
+    </section>
+</body>
+</html>
